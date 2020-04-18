@@ -12,7 +12,7 @@
 
 ***
 
-[![HitCount](http://hits.dwyl.io/CodeToExpress/dailycodebase.svg)](http://hits.dwyl.io/MadhavBahlMD/webmentor) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/MadhavBahlMD/webmentor/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://webmentor.tech/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](http://madhavbahl.tech/contact/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) ![GitHub license](https://img.shields.io/github/license/MadhavBahlMD/webmentor.svg)
+[![HitCount](http://hits.dwyl.io/MadhavBahlMD/webmentor.svg)](http://hits.dwyl.io/MadhavBahlMD/webmentor) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/MadhavBahlMD/webmentor/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://webmentor.tech/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](http://madhavbahl.tech/contact/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest) ![GitHub license](https://img.shields.io/github/license/MadhavBahlMD/webmentor.svg)
 
 ![WebMentor](./cover.png)
 
