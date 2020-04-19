@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML FORM</title>
+  </head>
+  <body bgcolor="Lightskyblue">
+    <h1>Registration Form</h1>
+    <form>
+      <label for="firstName">First name:</label><br />
+      <input
+        type="text"
+        id="firstName"
+        name="FirstName"
+        placeholder="Enter your first name"
+      /><br />
+      <label for="lastName">Last name:</label><br />
+      <input
+        type="text"
+        id="lastName"
+        name="LastName"
+        placeholder="Enter your last name"
+      /><br />
+      <label for="Email">Email:</label><br />
+      <input
+        type="email"
+        id="Email"
+        placeholder="Enter your email address"
+      /><br />
+      <label for="address">Address:</label><br />
+      <textarea cols="50" rows="5" value="address" id="address"> </textarea>
+      <br />
+      <br /><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
