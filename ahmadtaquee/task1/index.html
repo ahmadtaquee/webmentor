@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action_page.php" method="POST">
+        <label for="fname">First Name: </label><br>
+        <input type="text" id="fname" name="fname" placeholder="your first name" required><br>
+        <br>    
+        <label for="mname">Middle Name: </label><br>
+        <input type="text" id="mname" name="mname" placeholder="your middle name"><br>
+        <br>
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname" placeholder="your last name" required><br>
+        <br>
+        <label for="cname">Course Name: </label><br>
+        <select>
+            <option>Select Your Course</option>
+            <option value="be">B.E.</option>
+            <option value="btech">B. Tech</option>
+            <option value="me">M.E.</option>
+            <option value="mtech">M. Tech</option>
+            <option value="phd">Ph. D</option>
+        </select><br>
+        <br>
+        <label for="gender">Gender: </label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <br>
+        <label for="phone">Phone: </label><br>
+        <input id="country-prefix" type="text" value="+91">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required><br>
+        <br>
+        <label for="address">Address: </label><br>
+        <textarea rows="4" cols="40" placeholder="Your local address." required></textarea><br>
+        <br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="your email" required><br>
+        <br>
+        <label for="pass">Password: </label><br>
+        <input type="password" id="password" name="password" required><br>
+        <br>
+        <label for="pass">Re-type Password: </label><br>
+        <input type="password" id="retpyepwd" name="retpyepwd" required><br>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
