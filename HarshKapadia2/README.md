@@ -1,4 +1,4 @@
-# HarshKapadia2's submissions
+# HarshKapadia2's Submissions
 
 ![DP](https://avatars0.githubusercontent.com/u/50140864?s=460&u=50f42fdb96e4131120fd71ba258e1ac355633489&v=4)
 
