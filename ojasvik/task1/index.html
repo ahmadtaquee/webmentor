@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color:ghostwhite;">
+    <form style="margin: 10px;">
+        <fieldset style="margin: 20px; padding: 20px; display: flex;background-color: bisque; ">
+            <legend>Registration Form</legend>
+            </br>
+            <label>Name:</label>
+        
+            <input type="text" required="required" name="name">
+        </br>    
+            <label>Email Id:</label>
+        
+            <input type="email" required="required" name="email">
+        </br>
+            <label>Date of Birth:</label>
+        
+            <input type="date" name="dob">
+        </br>
+            <label>Country:</label>
+        
+            <select name="country">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="China">China</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Japan">Japan</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="SriLanka">Sri lanka</option>
+            </select>
+        </br>
+            <label>Gender:</label>
+            <label><input style="vertical-align: top;" type="radio" name="gender" value="female" id="one">Female</label>
+            <label><input type="radio" name="gender" value="male" id="two"><label for="two">Male</label></label>
+            <label><input type="radio" name="gender" value="nil" id="three"><label for="three">Prefer not to say</label></label>
+            
+        </br>
+            <label>Resume:</label>
+        
+            <input type="file" name="resume">
+        </br>
+            <input type="submit" value="Upload">
+        </br>
+            <label>Password</label>
+        
+            <input type="password" value="password" required="required">
+        </br>
+            <label>Confirm Password</label>
+        
+            <input type="password" value="password" required="required">
+        </br></br>
+            <input type="submit" value="Submit"></button>
+        </fieldset>
+    </form>
+</body>
+</html>
