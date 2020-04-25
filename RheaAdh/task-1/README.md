@@ -1,0 +1,5 @@
+- Name: Rhea Adhikari
+- Email: rheadhikari@gmail.com
+- GitHub: RheaAdh
+- LinkedIn: https://www.linkedin.com/in/rhea-adhikari-473117188/
+- My website: https://rheadhikari.wixsite.com/website 
