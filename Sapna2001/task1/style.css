@@ -1,0 +1,27 @@
+body{
+   background: #4cd3c2;
+}
+h1
+{
+  font-family: 'Girassol', cursive;
+  font-size: 100px;
+  text-decoration: underline;
+  color: #342ead;
+}
+.details
+{
+font-family: 'Baloo Tamma 2', cursive;
+align-items: center;
+font-size: 20px;
+margin-left: 10%;
+}
+button
+{
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+}
+.dborder {
+  border-style: double;
+border-width: thick;
+border-color: #00a8cc}
