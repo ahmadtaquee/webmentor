@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>
+             Registration Form
+         </title>
+         <style>
+
+             form{
+                padding: 10px;
+                 color:aliceblue;
+                 font-family:Georgia, 'Times New Roman', Times, serif;
+                 background-color: black;
+             }
+             legend{
+                 padding: 10px;
+                 font-style: italic;
+
+             }
+             fieldset{
+                 border-style:inset;
+                 border:none;
+                 
+                 background-color: rgba(77, 75, 75, 0.411);
+             }
+             table,tr,td{
+                 padding: 10px;
+             }
+             input,select{
+                 
+                 background:radial-gradient(white,rgb(146, 146, 146));
+             }
+             h1{
+                 font-family:Georgia, 'Times New Roman', Times, serif;
+             }
+         </style>
+     </head>
+     <form>
+         <h1>Registration Form</h1>
+         <fieldset>
+             <legend>Personal Information</legend>
+             <table>
+                 <tr>
+                     <td><label>Firstname</label></td>
+                     <td><input type="text"></td>
+                 </tr>
+                 <tr>
+                     <td><label>Lastname</label></td>
+                     <td><input type="text"></td>
+                 </tr>
+                 <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><select>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                        <option value="oth">Other</option>
+                        <option value="pnts">Prefer not to say</option>
+                    </select></td>
+                </tr>
+             </table>
+             
+         </fieldset>
+         <fieldset>
+            <legend>Address</legend>
+             <table>
+                 <tr>
+                     <td><label>House no./Apartment</label></td>
+                     <td><input type="text"></td>
+                 </tr>
+                 <tr>
+                    <td><label>Road/Street/lane</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>City</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Pincode</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>State</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td> <label>Country</label></td>
+                    <td><input type="text"></td>
+                </tr>
+             </table>
+            
+            
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" placeholder="xyz@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile</label></td>
+                    <td><input type="text" maxlength="10"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <p align="center"><input type="button" value="Submit"></p>
+     </form>
+ </html>
