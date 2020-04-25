@@ -76,4 +76,5 @@ Make a tribute page for the person who inspires you the most.
 
 For example - [https://codepen.io/freeCodeCamp/full/zNqgVx](https://codepen.io/freeCodeCamp/full/zNqgVx)
 
+Complete information - [https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 Source: FreeCodeCamp
