@@ -27,7 +27,7 @@ Read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 | Week Number | Topic Covered | Task To complete | Difficulty |
 | ---------- | ----- | ------------ | ---------: |
 | Week 1 | HTML | Make a basic form using HTML | **Beginner** |
-| Week 2 | CSS | Coming Soon | **Intermediate** |
+| Week 2 | CSS | Nav Bar and/or FCC tribute page | **Intermediate** |
 | Week 3 | MaterializeCSS | Coming Soon | **Beginner** |
 | Week 4 | JavaScript/DOM Manipulation | Coming Soon | **Intermediate** |
 | Week 5 | API Calls | Coming Soon | **Intermediate** |
@@ -56,4 +56,24 @@ Implement an HTML form based on your own creativity
 
 Use W3Schools forms section for help - [https://www.w3schools.com/html/html_forms.asp](https://www.w3schools.com/html/html_forms.asp)
 
-For reference, see this sample form - (coming soon)
+For reference, see this sample form - [http://tasks.webmentor.tech/TheLeanProgrammer/task1](http://tasks.webmentor.tech/TheLeanProgrammer/task1)
+
+## Task 2 - CSS
+
+This task is divided into two parts, doing both is optional, you can do both also.
+
+### Part 1
+
+Make a Nav Bar having a drop down menu.
+
+For example - 
+
+![task2](https://user-images.githubusercontent.com/26179770/80280015-e5a84400-871e-11ea-9ed2-bf3f33dc5f43.png)
+
+### Part 2
+
+Make a tribute page for the person who inspires you the most.
+
+For example - [https://codepen.io/freeCodeCamp/full/zNqgVx](https://codepen.io/freeCodeCamp/full/zNqgVx)
+
+Source: FreeCodeCamp
