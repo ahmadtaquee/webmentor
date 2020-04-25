@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--A demo registration form to include basic HTML tags-->
+
+<html>
+	<!--head begins here-->
+	<head>
+		<title>Registration Form</title>  
+		<meta name="description" content="A Registration form to sign up for a bootcamp" />  
+		<meta name="keywords" content="registration, bootcamp, programming" /> 
+		<meta http-equiv="author" content="Bharati Subramanian" />
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<!--head ends here-->
+
+	<!--body begins here-->
+	<body>
+		<header>
+			<div class="header">
+				<h1>REGISTRATION FORM</h1>
+			</div>
+		</header>
+		<div>
+			<div class="instr">
+			<p style="margin:2%">Please fill the form to signup for the bootcamp. All fields are mandatory</p>
+			</div>
+			
+			<div class="form">
+				<form name="regForm" action="display.html" method="POST">
+					<table>
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Name</th>
+							<td style="padding:20px 25px 10px 25px;"><input type="text" name="name" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Email ID</th>
+							<td style="padding:20px 25px 10px 25px;"><input type="email" name="email" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Phone Number</th>
+							<td style="padding:20px 25px 10px 25px;;"><input type="text" name="phone" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Address</th>
+							<td style="padding:20px 25px 10px 25px;;"><textarea name="address" cols="20" rows="4" required="required"></textarea></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Gender</th>
+							<td style="padding:20px 25px 10px 25px;;"><input type="radio" name="gender" value="Female" checked="checked"> Female<br><br>
+								<input type="radio" name="gender" value="Male"> Male<br><br>
+								<input type="radio" name="gender" value="Other"> Other
+							</td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 20px 50px;">LinkedIn Handle</th>
+							<td style="padding:20px 25px 10px 25px;;"><input type="url" name="linkedin" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">GitHub Handle</th>
+							<td style="padding:20px 25px 10px 25px;;"><input type="url" name="github" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">What describes you best?</th>
+							<td style="padding:20px 25px 10px 25px;;">
+								<select name="occupation">  
+									<option value="Undergraduate Student" selected="selected">Undergraduate Student</option>  
+									<option value="Graduate Student">Graduate Student</option>  
+									<option value="Post Graduate Student">Post Graduate Student</option>  
+									<option value="Diploma Student">Diploma Student</option> 
+									<option value="Working Professional">Working Professional</option> 
+								</select> 
+							</td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Instituion/ Organization name</th>
+							<td style="padding:20px 25px 10px 25px;;"><input type="text" name="org" required="required"></td>
+						</tr>
+
+						<tr>
+							<th style="padding:20px 50px 10px 50px;">Select Bootcamp Course(s)</th>
+							<td style="padding:20px 25px 10px 25px;;">
+								<input type="checkbox" name="course" value="Data Structures and Algorithms" checked="checked" /> Structures and Algorithms <br><br>
+								<input type="checkbox" name="course" value="Machine Learning" /> Machine Learning <br><br>
+								<input type="checkbox" name="course" value="Full Stack Development" /> Full Stack Development <br><br>
+							</td>
+						</tr>
+					</table>
+					
+					<input value="REGISTER" type="submit" name="submit">
+				</form>
+				<p style="color:red"><b><span style="color:DarkRed"><i>NOTE : </i></span> The bootcamp begins on 30<sup>th</sup> April 2020. Please keep checking your mail (spam folder as well) for further updates.<br> The last day for registration is : 25<sup>th</sup> April 2020 </b></p>  
+			</div>
+		</div>
+		</main>
+	</body>
+	<!--body ends here-->
+</html>
