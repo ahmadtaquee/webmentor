@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body style="background-color: tan">
+    <h1 style="text-align: center">Workshop Registration Form</h1>
+    <form action="submission.html" method="POST" style="text-align: center">
+        <fieldset>
+            <legend> Personal Details </legend><br>
+            <section class="Name">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" required />
+                <br><br>
+            </section>
+
+
+            <section class="Gender">
+                <span>Gender</span><t />
+                <input type="radio" name="gender" id="male" value="Male" required />
+                <label for="male"> Male</label>
+
+                <input type="radio" name="gender" id="female"
+                       value="Female" required />
+                <label for="female">Female </label>
+
+                <input type="radio" name="gender" id="other"
+                       value="Others" required />
+                <label for="other">Others </label>
+                <br><br>
+            </section>
+
+            <section class="emailid">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+            </section>
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Details</legend>
+            <br><section class="experience">
+                <layout for="years">How many years of experience do you have ?</layout>
+                <input type="number" id="years" name="years" value="0" step="1" min="0" required>
+                <br><br>
+            </section>
+
+            <section class="company">
+                <layout for="companyName">Last Company Name:</layout>
+                <input type="text" name="comapnyName" id="companyName" />
+                <br><br>
+            </section>
+
+            <section class="description">
+                <layout for="description">Role Description:- </layout>
+                <br>
+                <textarea id="description" name="extra" rows="5" cols="40"></textarea>
+                <br><br>
+            </section>
+            <section class="languages" required>
+                <span> What programming languages do you know?</span>
+                <br>
+
+                <input type="checkbox" id="python" name="languages" value="Python">
+                <layout for="python">Python</layout>
+
+
+                <input type="checkbox" id="html" name="languages" value="html">
+                <layout for="html">HTML</layout>
+
+
+                <input type="checkbox" id="java" name="languages" value="Java">
+                <layout for="java">Java</layout>
+
+
+                <input type="checkbox" id="none" name="languages" value="None">
+                <layout for="none">None</layout>
+
+
+                <input type="checkbox" id="other" name="languages" value="Other">
+                <layout for="other">Other</layout>
+
+                <br><br>
+                <layout for="others">If Others Please specify: </layout>
+                <br>
+                <textarea id="others" name="others" rows="5" cols="40"></textarea>
+            </section>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Workshop Details </legend>
+            <section class="Courses">
+                <br> <label for="courses"> Select workshop </label>
+                <input list="course" placeholder="Select" id="courses" name="courses" required />
+                <datalist id="course">
+                    <option value="Machine Learning"></option>
+                    <option value="Artificial Intelligence"></option>
+                    <option value="Web Development"></option>
+                </datalist>
+                <br><br><br>
+            </section>
+
+            <section class="Timeslot">
+                <layout for="time">Select the time slot for workshop</layout><br>
+                <select id="time" name="time" required>
+                    <option value="first">10-12</option>
+                    <option value="second">1-3</option>
+                    <option value="third">4-6</option>
+                </select>
+                <br><br><br>
+            </section>
+
+
+            <section class="laptop" required>
+                <span>Would you be bringing your own laptop?</span>
+                <br>
+                <input type="radio" name="yes" id="yes" value="yes" />
+                <label for="yes"> Yes, I will bring my own laptop!</label>
+
+                <input type="radio" name="no" id="no" value="no" />
+                <label for="no"> No, I would need one!</label>
+                <br><br> <br><br>
+            </section>
+
+            <section class="review">
+                <label for="range">How likely are you to suggest this workshop to someone else?</label>
+                <br>
+                <span>I won't recommend :(</span>
+                <input type="range" id="range" name="review" min="0" max="10" value="5">
+                <span>Highly recommended :D</span>
+                <br><br><br>
+            </section>
+
+        </fieldset>
+
+        <section class="submit">
+            <br><br>
+            <input type="reset" name="reset" value="Reset">
+            <input type="submit" name="Submit" value="Submit">
+        </section>
+    </form>
+</body>
+</html>
+
