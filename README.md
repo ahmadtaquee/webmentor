@@ -28,9 +28,9 @@ Read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 | ---------- | ----- | ------------ | ---------: |
 | Week 1 | HTML | Make a basic form using HTML | **Beginner** |
 | Week 2 | CSS | Nav Bar and/or FCC tribute page | **Intermediate** |
-| Week 3 | MaterializeCSS | Coming Soon | **Beginner** |
+| Week 3 | MaterializeCSS | Build a landing page | **Advanced** |
 | Week 4 | JavaScript/DOM Manipulation | Coming Soon | **Intermediate** |
-| Week 5 | API Calls | Coming Soon | **Intermediate** |
+| Week 5 | API Calls | Coming Soon | **Advanced** |
 
 Read the `Task Description Section` to know more about the tasks.
 
@@ -78,3 +78,10 @@ For example - [https://codepen.io/freeCodeCamp/full/zNqgVx](https://codepen.io/f
 
 Complete information - [https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 Source: FreeCodeCamp
+
+## Task 3
+
+Build a landing page. It can be your portfolio website, or company landing page.
+
+I would recommend that you guys design your own portfolio website during this week, but in case you want a ready made design you wish to work on, you can see a sample design here - [Task 3 Template (PSD)](./task3_template/README.md)
+
