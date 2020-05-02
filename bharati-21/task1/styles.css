@@ -1,0 +1,149 @@
+
+body
+{
+	background-image: linear-gradient(to left, SandyBrown, BlanchedAlmond, SandyBrown);
+	color: DarkRed;
+	font-weight: bold;
+}
+
+h1
+{
+	text-decoration: underline;
+}
+
+p
+{
+	font-size: 20px;
+}
+.header
+{
+	display: flex;
+    justify-content: center
+}
+
+.instr
+{
+	display: flex;
+    justify-content: center
+}
+/*
+form
+{
+	margin: 0 auto;
+	text-align: center;
+}*/
+.form
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+th
+{
+	text-align: left;
+}
+
+
+
+table
+{
+	color: black;
+	font-size: 18px;
+	margin: 0 auto;
+	text-align: center;
+	/*margin:2%;*/
+	width: 60%;
+	padding: 10px;
+	border:2px solid black;
+}
+
+
+
+tr 
+{
+	padding:10px;
+	text-align:  left;
+}
+
+td
+{
+	margin: 10px;
+}
+
+input[type=text] 
+{
+	background-color: Bisque;
+	width: 80%;
+	padding: 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size:15px;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	border: 2px solid Maroon;
+}
+
+input[type=email] 
+{
+	background-color: Bisque;
+	width: 80%;
+	padding: 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size:15px;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	border: 2px solid Maroon;
+}
+
+input[type=url] 
+{
+	background-color: Bisque;
+	width: 80%;
+	padding: 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size:15px;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	border: 2px solid Maroon;
+}
+
+input[type=submit] 
+{
+	background-color: SaddleBrown;
+	padding: 1%;
+	margin: 15px;
+	font-size:15px;
+	color: BlanchedAlmond;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	border: 2px solid Black;
+	font-weight: bold;
+}
+
+select 
+{
+	background-color: Bisque;
+	width: 80%;
+	padding: 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size:15px;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	font-weight: bold;
+	border: 2px solid Maroon;
+}
+textarea
+{
+	background-color: Bisque;
+	width: 80%;
+	padding: 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size:15px;
+	font-family: "Times New Roman";
+	border-radius: 5%;
+	border: 2px solid Maroon;
+}

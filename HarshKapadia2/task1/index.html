@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Task</title>
+</head>
+<body>
+    <h1 style="text-align: center">The DJ Mix Showdown</h1>
+    <h3 style="text-align: center"><i>A DJ mixing battle!</i></h3>
+    <br>
+    <br>
+
+    <form action="#" style="text-align: center">
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <br>
+
+            <label for="fname">First name: </label>
+            <input type="text" name="fname" id="fname" required autofocus>
+            <br>
+            <br>
+
+            <label for="lname">Last name: </label>
+            <input type="text" name="lname" id="lname" required>
+            <br>
+            <br>
+
+            <label for="djname">Stage name: </label>
+            <input type="text" name="djname" id="djname" required>
+            <br>
+            <br>
+
+            <label for="email">e-mail: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="female" value="female" required>Female
+            <input type="radio" name="gender" id="male" value="male" required>Male
+            <input type="radio" name="gender" id="other" value="other" required>Other
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>MIX BATTLE DETAILS</legend>
+            <br>
+
+            <label for="competition_level">Competition level: </label>
+            <select name="competition_level" id="competition_level" required>
+                <option value="easy">Easy</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="difficult">Difficult</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="genre">Choose genre: </label>
+            <select name="genre" id="genre" required>
+                <option value="house">House</option>
+                <option value="dnb">DnB</option>
+                <option value="dubstep">Dubstep</option>
+                <option value="trap">Trap</option>
+            </select>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>EQUIPMENT DETAILS</legend>
+            <br>
+
+            <label for="equipment_requirement">Will you be bringing your own controller (with laptop)/CDJs or using our Denon SC5000Ms?</label>
+            <br>
+            <input type="radio" name="equipment_requirement" id="equipment_requirement" value="yes" required>Own Equipment
+            <br>
+            <input type="radio" name="equipment_requirement" id="equipment_requirement" value="no" required>Equipment At Venue (Denon SC5000M)
+        </fieldset>
+        <br>
+        <br>
+
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
