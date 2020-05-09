@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormsImplementation-Task1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Web Mentor Program</h1>
+    <form action="/registration" method="get">
+      <label class="FormDetails">
+        <p>First Name</p>
+        <input
+          type="text"
+          placeholder="Your First Name.."
+          name="fname"
+          class="FormDetails-text"
+        />
+      </label>
+      <label class="FormDetails">
+        <p>Last Name</p>
+        <input
+          type="text"
+          placeholder="Your Last Name.."
+          name="lname"
+          class="FormDetails-text"
+        />
+      </label>
+      <label class="FormDetails">
+        <p>University</p>
+        <select class="FormDetails-option">
+          <option>Sastra</option>
+          <option>VIT</option>
+          <option>SRM</option>
+          <option>NIT</option>
+          <option>IIT</option>
+          <option>BITS</option>
+        </select>
+      </label>
+      <label class="FormDetails">
+        <p>Degree</p>
+        <input
+          type="text"
+          placeholder="Department"
+          name="dept"
+          class="FormDetails-dept"
+        />
+      </label>
+      <label class="FormDetails">
+        <p>Type</p>
+        <div class="FormDetails-radio">
+          <input type="radio" name="type" value="1" />
+          <label>Mentor</label>
+          <input type="radio" name="type" value="1" />
+          <label>Mentee</label>
+        </div>
+      </label>
+      <textarea
+        class="TextArea"
+        rows="8"
+        cols="30"
+        name="subject"
+        placeholder="Tell us something about you.."
+      ></textarea
+      ><br />
+      <div class="button">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
