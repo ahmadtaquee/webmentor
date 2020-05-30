@@ -1,0 +1,189 @@
+body {
+	background: url('http://www.mrwallpaper.com/wallpapers/mountains-scenery.jpg');
+}
+
+ul#taskList {
+	padding: 0 25px;
+}
+
+li.task {
+	list-style-type: none;
+	font-family: Arial;
+	font-size: 1.2em;
+	padding: 7px 0;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+
+}
+
+li.task:hover {
+	background-color: rgba(100,100,100,0.5);
+}
+
+li.task:hover .deleteTaskBtn {
+	visibility: visible;
+	opacity: 1;
+}
+
+li.task:not(:last-child) {
+	border-bottom: 1px solid white;
+}
+
+input.taskCheckbox {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	outline: none;
+	margin-left: 5px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+}
+
+input.taskCheckbox:checked {
+	background-color: #009925;
+}
+
+input.taskCheckbox:checked:after {
+	color: white;
+	content: "\2713";
+	display: block;
+	font-size: 12px;
+	height: 12px;
+	position: absolute;
+	width: 12px;
+	left: 0.5px;
+	bottom: 2px;
+}
+
+input.taskCheckbox + label.taskLabel {
+	color: white;
+}
+
+input.taskCheckbox:checked + label.taskLabel {
+	font-style: italic;
+	color: grey;
+}
+
+input[placeholder] {
+	font-size: 1.1em;
+}
+
+#container {
+	width: 40%;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 5px;
+}
+
+#header {
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+#inputContainer {
+	padding: 15px;
+}
+
+#inputContainer #taskInput {
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+#listWrapper {
+	position: absolute;
+	bottom: 50px;
+	top: 160px;
+	right: 0;
+	left: 0;
+	overflow: scroll;
+}
+
+#deleteBtnWrapper {
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 15px;
+	padding: 0 15px;
+}
+
+#deleteBtnWrapper #deleteCompletedBtn {
+	float: left;
+	-webkit-appearance: none;
+	opacity: 0.5;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-radius: 3px;
+	border: 1px solid white;
+	width: 150px;
+	height: 25px;
+	font-size: 14px;
+	outline: none;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+}
+
+#deleteBtnWrapper #deleteCompletedBtn:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+#deleteBtnWrapper #clearTasksBtn {
+	float: right;
+	-webkit-appearance: none;
+	opacity: 0.5;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border-radius: 3px;
+	border: 1px solid white;
+	width: 150px;
+	height: 25px;
+	font-size: 14px;
+	outline: none;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+}
+
+#deleteBtnWrapper #clearTasksBtn:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.deleteTaskBtn {
+	float: right;
+	color: white;
+	background: rgba(0,0,0,0);
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px 5px;
+	visibility: hidden;
+	opacity: 0;
+	line-height: 0;
+	margin-right: 5px;
+	cursor: default;
+	transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+}
+
+.deleteTaskBtn:hover {
+	background-color: rgba(255,0,0,0.4);
+}
